@@ -1,0 +1,293 @@
+:root {
+    --border-bottom : #eaeff1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.container {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.fsm {
+    font-size: 1rem;
+}
+
+/* Navigation */
+
+#nav {
+    height: 200px;
+    display: grid;
+    grid-template-rows: 45px 1fr;
+}
+
+#nav .navigation-container {
+    padding: 0;
+}
+
+#nav .container .navigation-container .nav-list {
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav .container .navigation-container .nav-list li {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#nav .container .navigation-container .nav-right {
+    display: none;
+}
+
+#nav .heading img {
+    width: 125px;
+}
+
+/* Main */
+
+#main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main .container .main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+#main .container .main-container .first{
+    height: 200px;
+    width: 324px;
+}
+
+#main .container .main-container .second {
+    height: 250px;
+    width: 324px;
+    padding: 0;
+}
+
+#main .container .main-container .second .started{
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+#main .container .main-container .second h1{
+    font-size: 1.25rem;
+}
+
+#main .container .main-container .second p {
+    font-size: 0.9rem;
+}
+
+#main .container .main-container .second .icon-info {
+    margin-top: 1rem;
+}
+
+#main .container .main-container .second .icon-info .name-date .name {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#main .container .main-container .second .icon-info .name-date .date > * {
+    padding: 0.25rem 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+#main .container .main-container-2 {
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+}
+
+#main .container .main-container-2 img {
+    width: 324px;
+    height: 200px;
+}
+
+#main .container .main-container-2 .one {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+#main .container .main-container-2 .one div {
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-2 .one p {
+    font-size: 0.9rem;
+}
+
+#main .container .main-container-2 .one .icon-info {
+    margin-top: 1rem;
+}
+
+#main .container .main-container-2 .one .icon-info .name-date .name {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-2 .one .icon-info .name-date .date > * {
+    padding: 0.25rem 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+#main .container .main-container-2 .two {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-bottom);
+    margin-top: -1.5rem;
+}
+
+#main .container .main-container-2 .two div {
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-2 .two p {
+    font-size: 0.9rem;
+}
+
+#main .container .main-container-2 .two .icon-info {
+    margin-top: 1rem;
+}
+
+#main .container .main-container-2 .two .icon-info .name-date .name {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-2 .two .icon-info .name-date .date > * {
+    padding: 0.25rem 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+#main .container .main-container-2 .three {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-bottom);
+    margin-top: -1.5rem;
+}
+
+#main .container .main-container-2 .three div {
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-2 .three p {
+    font-size: 0.9rem;
+}
+
+#main .container .main-container-2 .three .icon-info {
+    margin-top: 1rem;
+}
+
+#main .container .main-container-2 .three .icon-info .name-date .name {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-2 .three .icon-info .name-date .date > * {
+    padding: 0.25rem 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+#main .container .main-container-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 1.25rem auto;
+    padding: 0 0.5rem;
+}
+
+
+#main .container .main-container-3 img {
+    width: 324px;
+    height: 200px;
+}
+
+#main .container .main-container-3 .un {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+#main .container .main-container-3 .un div {
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-3 .un p {
+    font-size: 0.9rem;
+}
+
+#main .container .main-container-3 .un .icon-info {
+    margin-top: 1rem;
+}
+
+#main .container .main-container-3 .un .icon-info img {
+    border-radius: 45%;
+    width: 10%;
+    height: 10%;
+} 
+
+#main .container .main-container-3 .un .icon-info .name-date .name {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-3 .un .icon-info .name-date .date > * {
+    padding: 0.25rem 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+#main .container .main-container-3 .deux {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-bottom);
+    margin-top: -1.5rem;
+}
+
+#main .container .main-container-3 .deux div {
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-3 .deux p {
+    font-size: 0.9rem;
+}
+
+#main .container .main-container-3 .deux .icon-info {
+    margin-top: 1rem;
+}
+
+#main .container .main-container-3 .deux .icon-info img {
+    border-radius: 45%;
+    width: 10%;
+    height: 10%;
+} 
+
+#main .container .main-container-3 .deux .icon-info .name-date .name {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#main .container .main-container-3 .deux .icon-info .name-date .date > * {
+    padding: 0.25rem 0.5rem 0 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Footer */
+#footer .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#footer .container > *{
+    padding: 0.5rem 0;
+}
